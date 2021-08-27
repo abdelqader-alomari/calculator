@@ -38,7 +38,7 @@ class App extends React.Component {
                     </form>
                     <div className="calculator">
                         <button className="highlight" onClick={this.clear} id="clear">Clear</button>
-                        <button className="highlight" onClick={this.back} id="back">✖</button>
+                        <button className="highlight" onClick={this.back} id="back">↩</button>
                         <button className="highlight" name="/" onClick={this.handleClick}>&divide;</button>
                         <button name="7" onClick={this.handleClick}>7</button>
                         <button name="8" onClick={this.handleClick}>8</button>
